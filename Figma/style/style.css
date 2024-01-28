@@ -1,0 +1,39 @@
+.logo {
+    width: 200px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 15%;
+    padding: 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    height: 85%;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-end;
+    font-size: small;
+}
+
+.pic {
+    height: 500px;
+}
+
+.btn.btn.btn-primary {
+    border-radius: 25px;
+    background-color:rgb(121, 6, 170);
+}
+
+.col-6 h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
